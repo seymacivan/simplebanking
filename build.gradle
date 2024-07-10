@@ -19,6 +19,16 @@ dependencies {
 	}
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation('org.mockito:mockito-core')
+  // Spring Boot Starter Data JPA
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  implementation 'mysql:mysql-connector-java'
+  // Lombok
+  compileOnly 'org.projectlombok:lombok:1.18.24'
+  annotationProcessor 'org.projectlombok:lombok:1.18.24'
+  // Model Mapper
+  implementation 'org.modelmapper:modelmapper:3.1.0'
+  // JUnit
+  testImplementation 'junit:junit:4.13.2'
 }
 
 test {
